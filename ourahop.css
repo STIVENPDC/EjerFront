@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url("./img/kabal.pngs"),auto;
+}
+
+header{
+       width: 100%;
+       height: 28vw;
+       background-color:  rgb(95, 201, 231);
+       border-radius:  0px 0px 200px 200px;
+       display: flex;
+       flex-wrap: wrap;
+       max-width: 100%;
+       max-height: 50%;
+       background-image: url("./img/darksoulsgif.gif");
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(3, 3, 3, 0);
+    width: 100%;
+    height: 10em;
+    border-radius: 0px 0px 70px 70px;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: max-content;    
+    width: 40%;
+
+
+
+}
+
+.sec2 {
+    width: 60%;
+    
+    
+}
+.sec2 ul{
+    list-style: none;
+}
+.sec2 ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-top:2% ;
+    
+}
+.sec2 ul li a{
+       margin-top: 55%;
+       margin: 1.5em;
+       text-decoration: none;
+       font-size: 110%;
+       font-family: sans-serif;
+       color:  rgb(255, 255, 255);
+       font-style: inherit;
+}
+.nav2{
+     width: 100%;
+     height: 50%;
+     display: flex;
+     justify-content: center;
+     
+     background-color: rgba(70, 119, 162, 0);
+}
+.nav2 ul{
+      display: flex;
+      justify-content: space-between;
+}
+.nav2 ul li{
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 2%;
+        margin-top: 5%;
+        text-decoration: none;
+        list-style: none;
+
+
+
+}
+.nav2 ul li a{
+       font-size: 120%;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.nav3{
+     width: 100%;
+     height: 10vw;
+     background-color: rgb(255, 255, 255);
+     margin-top: 5%;
+
+}
+.nav3 ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+}
+.nav3 ul li{
+        display: flex;
+        justify-content: center;
+        margin: 1%;
+        border-radius: 40px;
+        background-color:(95, 201, 231);
+        padding: 1%;
+        transition: 0.3s;
+        border: 5px solid (95, 201, 231);
+
+}
+.nav3 ul li a{
+            text-decoration: none;
+            font-family: serif;
+            color:  rgb(0, 0, 0);
+            transition: 0.3s;
+
+     
+}
+.nav3 ul li:hover{
+             background-color: rgb(150, 204, 251);
+             border: 5px solid black;
+             
+}
+.nav3 ul li a:hover{
+    color: black;
+ }
+ .juego{
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       height: 60vw;
+ }
+ .juegos{
+       width: 85%;
+       height: 60vw;
+       background-color: rgb(255, 255, 255);
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       padding: 5em;
+      padding-top: -1%; 
+ }
+ .divs{
+       width: 15em;
+       height: 15em;
+       background-color: rgb(35, 130, 207);
+       margin:1%;
+       border-radius: 40px;
+       position: relative;
+       transition: 0.3s;
+       box-shadow: 6px 6px 6px 6px rgb(97, 174, 229);
+       
+       
+       
+
+ }
+ .divs li{
+     list-style: none;
+ }
+ .divs li p{
+         position: absolute;
+         bottom: 20%;
+         margin-left: 15%;
+ }
+ .divs li a{
+       list-style: none;
+       position: absolute;
+       white-space: nowrap;
+       bottom: 12%;
+       text-decoration: none;
+       font-family: sans-serif;
+       margin-left: 15%;
+       color: aliceblue;
+       transition: 0.8s;
+
+     
+ }
+
+ .divs:hover{
+          background-color: rgb(44, 44, 42);
+          color: rgb(197, 105, 225);
+          box-shadow: 6px 6px 6px 6px rgb(127, 14, 120);
+ } 
+ .divs a:hover{
+            color: rgb(157, 20, 194);
+ }
+ .botonru{
+         width: 100%;
+         height: 10vw;
+         background-color: rgba(255, 255, 255, 0);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 10vw;
+         list-style: none
+ }
+ ;
+        
+
+ 
+ .botonru  li{
+    display: flex;
+          margin: -16%;
+          justify-content: space-between;
+          width: 40%;
+          height: 20vw;  
+          list-style: none;
+          border-radius: 100px;      
+
+          }
+ .botonru li a{
+             list-style: none;
+     
+ }
+
+ .botonru li .images:hover{
+                background-color: rgb(9, 6, 187);
+
+ }
+ .futer{
+    width: 100vw;
+    height: 10vw;
+    background-color: rgb(100, 174, 238);
+    border-radius: 150px 150px 0px 0px;
+    display: flex;
+    justify-content: center;
+    transition: 0.6s;
+    flex-wrap: wrap;
+
+
+}
+.futer p{
+     margin-top: 1%;
+     margin: 1%;
+}
+
+.futer a{
+  margin-top: 1%;
+  margin: 1%;
+  transition: 0.5s;
+
+}
+.futer a:hover{
+   color: rgb(26, 255, 0);
+
+}
+
+.futer:hover{
+    background-color:rgb(205, 106, 106);
+    
+} 

@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  rgb(95, 202, 231);
+    background-position: center;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow: auto;
+    overflow: scroll;
+    overflow-wrap: normal;
+
+}
+
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(95, 201, 231);
+    width: 100%;
+    height: 8em;
+    border-radius: 0px 0px 70px 0px;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 0;
+    background-image: url("./img/darksoulsgif.gif");
+    background-repeat: no-repeat;
+    background-size: inherit;    
+   
+    
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+   flex-wrap: wrap;
+    width: 40%;
+
+
+
+}
+
+.sec2 {
+    width: 60%;
+    flex-wrap: wrap;
+
+    
+}
+.sec2 ul{
+    list-style: none;
+}
+.sec2 ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-top:2% ;
+    
+}
+.sec2 ul li a{
+       margin-top: 55%;
+       margin: 1.5em;
+       text-decoration: none;
+       font-size: 110%;
+       font-family: sans-serif;
+       color: rgb(53, 52, 52);
+       font-style: inherit;
+}
+.stiven{
+    display: flex;
+    width: 100vw;
+    height: 45vw;
+    background-color:rgb(255, 255, 255);
+    border-radius: 0px 0px 100px 100px;
+    z-index: 1;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 0;
+    
+}
+
+.sec3{
+    display: flex;
+    width: 50vw;
+    background-color:rgb(255, 255, 255);
+    height: 40vw;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 0px 0px 0px 100px;
+    flex-wrap: wrap;
+    min-width: 0;
+    min-height: 0;
+    
+}
+
+.sec3 ul{
+       list-style: none;
+       
+}
+
+.sec3 ul li{
+    list-style: none;
+    margin-left: 10%;
+    z-index: 1;
+        
+}
+
+.sec4{
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    width: 50vw;
+    height: 40vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 100px 0px;
+    z-index: 1;
+    flex-wrap: wrap;
+    min-width: 0;
+    min-height: 0;
+}
+.input1{
+    padding: 3.5%;
+    width: 10vw;
+    border-radius: 40px;
+}
+
+.input2{
+    padding: 3.5%;
+    width: 30%;
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    margin: -4vw;
+}
+.secicon{
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color:  rgb(95, 201, 231);
+    
+
+}
+
+.divs{
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    width: 250px;
+    height:200px;
+    padding-top: -30%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 120%;
+    border-radius: 1em;
+    z-index: 2;
+    border: 10px solid rgb(0, 51, 255);
+    color: black;
+    font-family: sans-serif;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px;
+    color: aliceblue;
+    
+}
+
+.div1deldivs{
+     display: flex;
+     flex-direction:row ;
+        }
+.div2deldivs{
+     display: flex;
+     flex-direction:row ;
+        }
+.div3deldivs{
+     display: flex;
+     flex-direction:row ;
+        }
+.div4deldivs{
+     display: flex;
+     flex-direction:row ;
+        }
+ .imagen{
+      transition: 0.3s;
+      transform: 0.3s;
+      filter: 0.3s;
+ }
+ 
+ 
+ .imagen:hover{
+       transform: scale(1.2);
+       filter: hue-rotate(0deg);
+       background-color: rgba(0, 0, 255, 0.648);
+     
+     }
+
+.navtext{
+     width: 100%;
+     height: 10em;
+     background-color: rgb(17, 144, 255);
+     display: flex;
+     justify-content: space-between;
+}
+ .navtext1{
+          width: 50%;
+          display: flex;
+          justify-content: flex-start;
+          align-content: center;
+          background-color:  rgb(95, 201, 231);
+          padding-left: 8%;
+  
+}
+
+.navtext2{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-content: center;
+        background-color:  rgb(95, 201, 231);
+
+       
+           
+
+        }
+
+.navtext2 ul{
+           list-style: none;
+
+        }
+.btn2{
+    width: 7em;
+    height: 3em;
+    font-size: 110%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    margin-right: 5em;
+    margin-top: 25%;
+    border: 2px solid white;
+   
+}
+
+.navtext1{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        background-color:  rgb(95, 201, 231);
+        padding-left: 8%;
+
+
+}
+.navtext1 ul li{
+             margin-top: 10%;
+             margin-left: 10%;
+             list-style: none;
+}
+
+.juegos1{
+       width: 100vw;
+       height: 20vw;
+       background-color:  rgb(95, 201, 231);
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-content: center;
+}
+
+.divs2{
+       display: flex;
+       justify-content: space-between;
+      width: 19vw;
+      height: 22vw;
+      background-color:rgb(255, 255, 255);
+      margin: 1%;
+      border-radius: 40px 40px 40px 40px;
+      transition:0.3s;
+     
+}
+
+.divs2:hover{
+     background-color: rgba(66, 16, 194, 0.794);
+}
+
+.divs2 li a{
+       text-decoration: none;
+       color: rgb(24, 72, 231);
+}
+.divs2 li{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+      justify-content: center;
+      align-content: end;
+      transition: 0.3s;
+}
+
+.imagenja{
+    transition: 0.3s;
+    transform: 0.3s;
+    filter: 0.3s;
+}
+
+
+.imagenja:hover{
+     transform: scale(1.2);
+     filter: hue-rotate(0deg);
+     background-color: rgba(0, 0, 255, 0.648);
+   
+   }
+
+   .candadoja{
+    transition: 0.3s;
+    
+}
+
+
+.candadoja:hover{
+     transform: scale(1.2);
+     filter: hue-rotate(0deg);
+     background-color: rgba(0, 0, 255, 0.648);
+   
+   }
+
+   .divs2 li a{
+      color: rgb(255, 255, 255);
+   }
+.divs2 li a:hover{
+          color: blue;  
+
+}
+.otrosjuegos{
+          width: 100vw;
+          height: 50vw;
+          background-color: rgb(95, 201, 231);
+          border-radius: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 5vw;
+}
+.navtext4{
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    background-color:  rgb(95, 201, 231);
+    border-radius: 50px 50px 0px 0px;
+}
+.navtext6{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    background-color:  rgb(95, 201, 231);
+
+   
+       
+
+    }
+
+.navtext6 ul{
+       list-style: none;
+
+    }
+    .navtext5{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        background-color: rgb(95, 201, 231);
+        padding-left: 8%;
+
+
+}
+.navtext5 ul li{
+             margin-top: 10%;
+             margin-left: 10%;
+             list-style: none;
+}
+.sectionjueguitos{
+    width: 100vw;
+    height: 20vw;
+    background-color: rgb(95, 201, 231);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: -25%;
+}
+
+.divs3{
+    display: flex;
+    justify-content: space-between;
+   width: 11em;
+   height: 15em;
+   background-color:rgba(255, 255, 255, 0.992);
+   border-radius: 40px 40px 50px 50px;
+   margin: 1em;
+   flex-wrap:wrap;
+   margin-top: -10em;
+   
+  
+}
+.divs3 li a{
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+}
+.divs3 li{
+     text-decoration: none;
+     list-style: none;
+     display: flex;
+   justify-content: center;
+   align-content: end;
+   transition: 0.3s;
+   flex-wrap: wrap;
+   margin-top: -1em;
+}
+.catego{
+      width: 100vw;
+      height: 20vw;
+      display: flex;
+      margin-top: 1vw;
+      justify-content: center;
+      background-color: rgba(240, 248, 255, 0);
+      align-items: center;
+}
+.catego ul{
+        
+        list-style: none;
+}
+.juegoscate{
+        width: 100vw;
+        height: 30vw;
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+.divs4{
+       width: 13em;
+       height: 15em;
+       background-color: rgb(255, 255, 255);
+       margin: 1%;
+       border-radius: 40px;
+       transition: 0.3s;
+
+}
+.divs4 h1{
+         display: flex;
+         justify-content: center;
+         margin-top: 2%;
+         font-family: monospace;
+         
+}
+
+.divs4:hover{
+          background-color: rgb(28, 58, 255);
+          color: rgb(255, 255, 255);
+}
+.imagnesulti{
+         width: 100vw;
+         height: 50vw;
+         margin-top: 6%;
+         background-color: rgba(240, 248, 255, 0.004);
+         display: flex;
+         justify-content: center;
+         align-content: center;
+}
+.imagengta{
+         position: absolute;
+
+}
+.divs5{
+    width: 30%;
+    height: 40vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    border-radius: 60px;
+    top: 10%;
+    left: 12%;
+
+}
+.divs5 ul{
+         list-style: none;
+         justify-content: flex-start;
+
+}
+.divs5 ul li{
+        margin-top: 10%;
+        text-justify: distribute-all-liness;
+}
+.ultiboton{
+       transition: 0.4s;
+}
+.ultiboton a{
+           text-decoration: none;
+           font-family: sans-serif;
+           color: black;
+           transition: 0.4s;
+}
+
+.ultiboton:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+.ultiboton a:hover{
+    color: rgb(255, 255, 255);
+   
+}
+.divs6{
+    width: 30%;
+    height: 35.8vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    border-radius: 60px;
+    top: 18%;
+    right: 14%;
+
+    
+}
+.divs6 ul{
+    list-style: none;
+    justify-content: flex-start;
+    padding: 5%;
+    margin-top: 12%;
+
+}
+.divs6 ul li{
+   margin-top: 10%;
+   
+}
+.li2{
+     display: flex;
+     justify-content: space-between;
+}
+
+.ultifor{
+          padding: 4%;
+          border-radius: 50px;
+          width: 60%;
+          
+}
+
+.ultifor2{
+          padding: 4%;
+          border-radius: 50px;
+          width: 50%;
+          margin-left: -20%;
+          transition: 0.4s;
+     
+    
+}
+.ultifor2:hover{
+             background-color: blue;
+             color: aliceblue;
+}
+.futer{
+      width: 100vw;
+      height: 10vw;
+      background-color: aliceblue;
+      border-radius: 150px 150px 0px 0px;
+      display: flex;
+      justify-content: center;
+
+
+}
+.futer p{
+       margin-top: 1%;
+       margin: 1%;
+}
+
+.futer a{
+    margin-top: 1%;
+    margin: 1%;
+    transition: 0.5s;
+
+}
+.futer a:hover{
+     color: red;
+
+}
